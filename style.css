@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body, header, nav, li, a, h1, h2, h3, ul, div, main, section, p{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER SECTION*/
+
+.header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #16A085;
+    position: sticky;
+    top: 0;
+}
+
+.header_title h1{
+    font-size: 2.6rem;
+    color: #fff;
+}
+
+.navbar-list{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+.list-item a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 20px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.list-item a:hover{
+    background-color: #2C3E50;
+}
+
+.list-item a:active{
+    background-color: #2C3E50;
+}
+
+/* HEADER SECTION ENDS */
+
+/* MAIN SECTION */
+
+.main_container-img{
+    background-image: url('multimedia/imagen-inicio.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.main{
+    padding: 40px 0;
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 600px 500px; 
+    grid-template-rows: 400px;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.main_container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main_container-text h2{
+    font-size: 2rem;
+    color: #0009;
+}
+
+.img_isrrael{
+    background-image: url('multimedia/isrreael.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.img_grecia{
+    background-image: url('multimedia/Grecia.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.img_rusia{
+    background-image: url('multimedia/rusia.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.destinos_container{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.img_isrrael, .img_grecia, .img_rusia{
+    width: 50%;
+    height: 300px;
+}
+
+.container-img{
+    display: flex;
+    gap: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 12px;
+}
+
+.destino-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 12px;
+}
+
+.img_grecia{
+    order: 2;
+}
+
+.footer_container{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer{
+    background-color: #16A085;
+    padding: 12px 0;
+    margin-top: 40px;
+    color: #fff;
+}
+/* MAIN SECTION ENDS*/
